@@ -1,16 +1,12 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "undici-types": [
-        "./node_modules/undici-types/index.d.ts"
-      ],
-    },
-    "lib": ["es2015"],
-    "module": "es2015",
+  "compilerOptions": { 
+    "lib": ["esnext"],
+    "module": "NodeNext",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "target": "es2015"
+    "target": "esnext",
+    "moduleResolution": "nodenext"
   },
   "include": [
     "src"
