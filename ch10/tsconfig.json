@@ -1,0 +1,14 @@
+{
+  "compilerOptions": { 
+    "lib": ["esnext"],
+    "module": "NodeNext",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "moduleResolution": "nodenext"
+  },
+  "include": [
+    "src"
+    ]
+}
